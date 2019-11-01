@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  background: hsl(192, 100%, 50%);
+  border: 1px solid hsl(192, 100%, 50%);
+  color: #000;
+  font-size: 62px;
+  font-weight: 200;
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: hsl(192, 100%, 45%);
+}
+
+.counter {
+  flex-basis: 100%;
+  font-size: 200px;
+  color: hsl(192, 100%, 50%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
